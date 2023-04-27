@@ -22,6 +22,7 @@ function generateMarkdown(data) {
   - [Test Run](#Test Run)
   - [Usage](#Usage)
   - [Contribution](#Contribution)
+  - [Questions](#Questions)
 
   ---
 
@@ -58,7 +59,11 @@ function generateMarkdown(data) {
   ## Contribution:
   ${data.contribution}
 
+  ---
 
+  ## Questions:
+  ${data.username}
+  ${data.email}
 
 
 `;
