@@ -14,6 +14,53 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Table of Contentes:
+  - [Project Description](#Description)
+  - [Licenses](#Licenses)
+  - [Installation](#Installation)
+  - [Test Installation](#Test Installation)
+  - [Test Run](#Test Run)
+  - [Usage](#Usage)
+  - [Contribution](#Contribution)
+
+  ---
+
+  ## Description:
+  ${data.description}
+
+  ---
+
+  ## Licenses:
+  ${data.licenses}
+
+  ---
+
+  ## Installation:
+  ${data.installation}
+
+  ---
+
+  ## Test Installation:
+  ${data.testInstal}
+
+  ---
+
+  ## Test Run:
+  ${data.testRun}
+
+  ---
+
+  ## Usage:
+  ${data.usingRepo}
+
+  ---
+
+  ## Contribution:
+  ${data.contribution}
+
+
+
+
 `;
 }
 
