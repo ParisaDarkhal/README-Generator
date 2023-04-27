@@ -1,0 +1,15 @@
+{
+	"username": "pd",
+	"email": "pd@gmai.com",
+	"title": "something",
+	"description": "something some thin ",
+	"licenses": [
+		"MIT License",
+		"GNU General Public License (GPL)"
+	],
+	"installation": "npm install",
+	"test-instal": "npm install --save-dev mocha",
+	"test-run": "npm test",
+	"using-repo": "some thing cool",
+	"contribution": "some other cool thing"
+}
