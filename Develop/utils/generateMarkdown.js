@@ -100,7 +100,9 @@ function generateMarkdown(data) {
   ---
 
   ## Questions:
-  ${data.username}
+  In case of additional questions please contact me:
+  [GitHub Page](https://www.github.com/${data.username})
+  
   ${data.email}
 
 
