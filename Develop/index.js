@@ -33,11 +33,9 @@ const questions = [
       "MIT License",
       "Apache License 2.0",
       "GNU General Public License (GPL)",
-      "GNU Lesser General Public License (LGPL)",
       "BSD License",
       "Creative Commons License",
       "Mozilla Public License",
-      "Eclipse Public License",
     ],
   },
   {
@@ -57,7 +55,7 @@ const questions = [
   },
   {
     type: "list",
-    name: "testInstal",
+    name: "testInstall",
     message: "What commands should be run ot install tests? ",
     choices: [
       "npm install --save-dev mocha",
@@ -107,12 +105,6 @@ function askQuestions() {
 }
 
 askQuestions();
-// inquirer.prompt([]).then((response) => {
-//   console.log(response);
-//   fs.writeFile("log.text", JSON.stringify(response, null, "\t"), (err) => {
-//     err ? console.log(err) : console.log("Success");
-//   });
-// });
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
