@@ -1,4 +1,4 @@
-# README Generator
+# README GENERATOR
 
   ## Table of Contentes:
   - [Project Description](#Description)
@@ -13,14 +13,15 @@
   ---
 
   ## Description:
-  It asks you some questions about your project and creates a README.md file based on your answers
+  It is ran in command line interface. It asks you some questions about your project and creates a README.md file for you.
 
   ---
 
   ## Licenses:
-  MIT License
+  MIT License,Apache License 2.0
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
   ---
@@ -41,12 +42,12 @@
   ---
 
   ## Usage:
-  It is opensource. I will be happy if you use it and add to it.
+  It is opensource. Please contribute to improve it.
 
   ---
 
   ## Contribution:
-  Please forke before making any changes.
+  Please fork before contribution.
 
   ---
 

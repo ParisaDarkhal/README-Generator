@@ -98,7 +98,9 @@ function askQuestions() {
     .prompt(questions)
     .then((answers) => {
       const newMarkDown = markDown(answers);
-      fs.writeFile("./utils/README.md", newMarkDown, () => console.log("hi"));
+      fs.writeFile("./utils/README.md", newMarkDown, () =>
+        console.log("Done!")
+      );
       return answers;
     })
     .catch((error) => console.log(error));
